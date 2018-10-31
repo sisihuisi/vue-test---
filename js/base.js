@@ -1,3 +1,27 @@
+var app7 = new Vue({
+	el: "#app7",
+	data: {
+		selects: [{
+				value: 1,
+				text: "技术"
+			},
+			{
+				value: 2,
+				text: "实力"
+			},
+			{
+				value: 3,
+				text: "人力"
+			},
+		]
+	}
+});
+
+
+
+
+
+
 Vue.component('cp1', {
 	props: ['msg'],
 	template: '<div>{{msg}}</div>'
@@ -50,6 +74,8 @@ var app = new Vue({
 		name: ""
 	}
 });
+
+
 var app2 = new Vue({
 	el: "#app2",
 	data: {
