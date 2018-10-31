@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #1e0d47 url(../images/bg.jpg) 50% top no-repeat fixed;
+    position: relative; min-width: 1000px; color: #ccc;
+    
+}
+
+.ec-box{ width: 100%; height: 400px;}
+
+

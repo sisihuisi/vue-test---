@@ -1,0 +1,45 @@
+/*
+ * metismenu - v2.5.2
+ * A jQuery menu plugin
+ * https://github.com/onokumus/metisMenu#readme
+ *
+ * Made by Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)
+ * Under MIT License
+ */
+
+.metismenu .fa {
+   font-size: 16px; float: right; line-height: 26px;
+       -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+         -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+}
+.metismenu .plus-times {
+  float: right;
+}
+.metismenu .active > a > .fa {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.metismenu .collapse {
+  display: none;
+}
+.metismenu .collapse.in {
+  display: block;
+}
+.metismenu .collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .35s;
+       -o-transition-duration: .35s;
+          transition-duration: .35s;
+  -webkit-transition-property: height, visibility;
+  -o-transition-property: height, visibility;
+  transition-property: height, visibility;
+}
