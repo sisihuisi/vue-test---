@@ -1,0 +1,52 @@
+{
+	"sync.gist": "020c3e834b302391fbf8cf86b4677497574a4774",
+	"sync.host": "",
+	"sync.pathPrefix": "",
+	"sync.quietSync": false,
+	"sync.askGistName": false,
+	"sync.removeExtensions": true,
+	"sync.syncExtensions": true,
+	"sync.autoDownload": false,
+	"sync.autoUpload": false,
+	"sync.lastUpload": "",
+	"sync.lastDownload": "",
+	"sync.forceDownload": false,
+
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"html",
+		"vue"
+	],
+	"eslint.options": {
+		"plugins": ["html"]
+	},
+	// 以像素为单位控制字号。
+	"editor.fontSize": 16,
+	"editor.fontLigatures": true,
+	"workbench.colorTheme": "One Dark Pro",
+	"background.useDefault": false,
+	"background.customImages": ["file:///D:/壁纸/a1.jpg"],
+	"background.style": {
+		"content": "''",
+		"pointer-events": "none",
+		"position": "absolute",
+		"top": "0",
+		"right": "0",
+		"width": "100%",
+		"height": "100%",
+		"z-index": "99999",
+		"background.repeat": "repeat",
+		"background-size": "cover",
+		"opacity": 0.06
+
+
+	},
+	"files.autoSave": "afterDelay",
+	"workbench.iconTheme": "vscode-icons",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": false,
+	"explorer.confirmDragAndDrop": false
+}
